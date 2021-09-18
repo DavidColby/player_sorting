@@ -2,13 +2,31 @@
   <table class="min-w-full bg-white">
     <thead class="bg-gray-800 text-white">
       <tr>
-        <th id="players-name" class="text-left py-3 px-6 uppercase font-semibold text-sm hover:cursor-pointer">
+        <th
+          id="players-name"
+          class="text-left py-3 px-6 uppercase font-semibold text-sm hover:cursor-pointer"
+          data-reflex="click->Table#sort"
+          data-column="name"
+          data-direction="asc"
+        >
           <span>Name</span>
         </th>
-        <th id="players-team" class="text-left py-3 px-6 uppercase font-semibold text-sm hover:cursor-pointer">
+        <th
+          id="players-team"
+          class="text-left py-3 px-6 uppercase font-semibold text-sm hover:cursor-pointer"
+          data-reflex="click->Table#sort"
+          data-column="teams.name"
+          data-direction="asc"
+        >
           <span>Team</span>
         </th>
-        <th id="players-seasons" class="text-left py-3 px-6 uppercase font-semibold text-sm hover:cursor-pointer">
+        <th
+          id="players-seasons"
+          class="text-left py-3 px-6 uppercase font-semibold text-sm hover:cursor-pointer"
+          data-reflex="click->Table#sort"
+          data-column="seasons"
+          data-direction="asc"
+        >
           <span>Seasons</span>
         </th>
         <th colspan="3"></th>

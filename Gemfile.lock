@@ -166,9 +166,8 @@ GEM
     thor (1.1.0)
     thread-local (1.1.0)
     tilt (2.0.10)
-    turbolinks (5.2.1)
-      turbolinks-source (~> 5.2)
-    turbolinks-source (5.2.0)
+    turbo-rails (0.7.13)
+      rails (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     web-console (4.1.0)
@@ -201,8 +200,8 @@ DEPENDENCIES
   sass-rails (>= 6)
   spring
   sqlite3 (~> 1.4)
-  stimulus_reflex (~> 3.4)
-  turbolinks (~> 5)
+  stimulus_reflex (= 3.4.1)
+  turbo-rails (~> 0.7.13)
   tzinfo-data
   web-console (>= 4.1.0)
   webpacker (~> 5.0)
