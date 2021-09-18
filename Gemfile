@@ -48,3 +48,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "stimulus_reflex", "3.4.1"
 gem "turbo-rails", "~> 0.7.13"
+
+gem "redis-session-store", "~> 0.11.3"
+
+gem "hiredis", "~> 0.6.3"
